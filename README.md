@@ -8,7 +8,8 @@ This project builds a production-style AWS network using Terraform with minimal 
 
 Internet users connect only to the bastion host in the public subnet. The private EC2 instance has no public IP address and can only be accessed through the bastion host.
 
-<img width="1600" height="1100" alt="secure-vpc-terraform-architecture" src="https://github.com/user-attachments/assets/586f1a7e-c1ec-42a8-98fb-51d5488cf94b" />
+<img width="1600" height="1100" alt="secure-vpc-terraform-architecture" src="https://github.com/user-attachments/assets/b6faa67c-6091-4bcf-a4df-fc4a6a2439d8" />
+
 
 ##Screenshots
 
@@ -19,7 +20,7 @@ Internet users connect only to the bastion host in the public subnet. The privat
 <img width="960" height="506" alt="terraform apply" src="https://github.com/user-attachments/assets/a835ec49-f554-436c-b0db-3d6d3e0a7fb8" />
 
 #AWS VPC Resources
-<img width="960" height="504" alt="aws console" src="https://github.com/user-attachments/assets/f6641597-e6fe-4c2b-bb3d-1c2af6c89b4c" />
+<img width="960" height="471" alt="aws console" src="https://github.com/user-attachments/assets/15ad4207-7aab-4233-9bcb-05b01f300ac4" />
 
 Bastion Host Connection
 <img width="867" height="464" alt="bastion host" src="https://github.com/user-attachments/assets/0beaafd5-1e2b-4922-99dd-b01e501fc033" />
