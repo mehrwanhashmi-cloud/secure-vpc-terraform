@@ -1,7 +1,6 @@
 # Secure-VPC-with-Terraform
 
 ## Project Overview
-
 This project builds a production-style AWS network using Terraform with minimal console usage. The architecture includes public and private subnets, an Internet Gateway, NAT Gateway, route tables, security groups, a bastion host, and a private EC2 instance.
 
 ## Business Use Cases
@@ -37,21 +36,21 @@ Private Subnet
    |
 Private EC2 Instance
 
-##Screenshots
+## Screenshots
 
-#Terraform Apply Success
+# Terraform Apply Success
 <img width="960" height="506" alt="terraform apply" src="https://github.com/user-attachments/assets/8b781971-7953-4b7d-80b8-dcb7ca0afbb7" />
 
-#Terraform Code
+# Terraform Code
 <img width="960" height="506" alt="terraform apply" src="https://github.com/user-attachments/assets/a835ec49-f554-436c-b0db-3d6d3e0a7fb8" />
 
-#AWS VPC Resources
+# AWS VPC Resources
 <img width="960" height="471" alt="aws console" src="https://github.com/user-attachments/assets/15ad4207-7aab-4233-9bcb-05b01f300ac4" />
 
-#Bastion Host Connection
+# Bastion Host Connection
 <img width="867" height="464" alt="bastion host" src="https://github.com/user-attachments/assets/0beaafd5-1e2b-4922-99dd-b01e501fc033" />
 
-#Private EC2 Access
+# Private EC2 Access
 <img width="867" height="464" alt="private ec2 access" src="https://github.com/user-attachments/assets/82aa6fc6-7e16-4e21-93f9-4d1f62d01b51" />
 
 ## AWS Services Used
@@ -71,21 +70,12 @@ Private EC2 Instance
 ## Lessons Learned
 
 - Learned how to provision AWS infrastructure using Infrastructure as Code (Terraform) instead of manual console-based deployment.
-
 - Gained hands-on experience creating and managing AWS networking components including VPCs, public and private subnets, route tables, Internet Gateways, and NAT Gateways.
-
 - Implemented a secure bastion host architecture to access private resources without exposing them directly to the internet.
-
 - Learned how Security Groups control network access and how to troubleshoot connectivity between EC2 instances.
-
 - Created and imported SSH key pairs for secure authentication to EC2 instances.
-
 - Used Terraform outputs to expose important deployment information such as VPC IDs and instance IP addresses.
-
 - Practiced validating infrastructure deployments through SSH connectivity testing and AWS CLI commands.
-
 - Implemented Git version control and GitHub repository management for Infrastructure as Code projects.
-
 - Learned how to use `.gitignore` to prevent Terraform state files, credentials, and sensitive data from being committed to source control.
-
 - Improved troubleshooting skills by resolving Terraform deployment errors, IAM permission issues, SSH authentication problems, and Git merge conflicts.
