@@ -22,10 +22,10 @@ Internet users connect only to the bastion host in the public subnet. The privat
 #AWS VPC Resources
 <img width="960" height="471" alt="aws console" src="https://github.com/user-attachments/assets/15ad4207-7aab-4233-9bcb-05b01f300ac4" />
 
-Bastion Host Connection
+#Bastion Host Connection
 <img width="867" height="464" alt="bastion host" src="https://github.com/user-attachments/assets/0beaafd5-1e2b-4922-99dd-b01e501fc033" />
 
-Private EC2 Access
+#Private EC2 Access
 <img width="867" height="464" alt="private ec2 access" src="https://github.com/user-attachments/assets/82aa6fc6-7e16-4e21-93f9-4d1f62d01b51" />
 
 ## AWS Services Used
